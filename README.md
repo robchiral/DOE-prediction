@@ -5,13 +5,7 @@
 * **x_to_doeid.csv**: contains conversions between internal drug IDs and ChEMBL IDs/DrugBank IDs/PubCHEM CIDs
 
 ### Notebooks
-* **Drug data.ipynb**: code used to clean ChEMBL, DrugBank, Guide to PHARMACOLOGY, and Open Targets datasets
-* **Drug analysis.ipynb**: code used to analyze drug data
-* **Gene models.ipynb**: code used to train gene-level models
-* **Gene-disease models.ipynb**: code used to train gene-disease-specific models
-
-> [!NOTE]
-> We cannot share some of the raw files needed to run these files as they require registration to obtain (e.g., DrugBank, OMIM) or are too large to host here (e.g., GenePT). Please download these files yourself.
+This directory contains 14 notebooks that should be run in order to reproduce the results in the manuscript. The data accompanying these notebooks are available at this [Zenodo record](http://doi.org/10.5281/zenodo.15001636).
 
 ### Predictions
 * **druggability.csv**: contains overall and DOE-specific druggability predictions for 19,450 protein coding genes
